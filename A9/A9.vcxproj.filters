@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ForceField">
+      <UniqueIdentifier>{4eeb5604-8dde-4991-af7f-25c1192ae666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generator">
+      <UniqueIdentifier>{e5d6e917-4dfd-401f-b833-480306ecdf7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Integrator">
+      <UniqueIdentifier>{bc785877-7b4f-4cde-84cf-96f8904e3477}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="glCanvas.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="parser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="particle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="particleSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="random.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="system.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vectors.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantForceField.h">
+      <Filter>ForceField</Filter>
+    </ClInclude>
+    <ClInclude Include="ForceField.h">
+      <Filter>ForceField</Filter>
+    </ClInclude>
+    <ClInclude Include="GravityForceField.h">
+      <Filter>ForceField</Filter>
+    </ClInclude>
+    <ClInclude Include="RadialForceField.h">
+      <Filter>ForceField</Filter>
+    </ClInclude>
+    <ClInclude Include="VerticalForceField.h">
+      <Filter>ForceField</Filter>
+    </ClInclude>
+    <ClInclude Include="RingGenerator.h">
+      <Filter>Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="HoseGenerator.h">
+      <Filter>Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="Generator.h">
+      <Filter>Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="EulerIntegrator.h">
+      <Filter>Integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="MidpointIntegrator.h">
+      <Filter>Integrator</Filter>
+    </ClInclude>
+    <ClInclude Include="Integrator.h">
+      <Filter>Integrator</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="glCanvas.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="parser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="system.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstantForceField.cpp">
+      <Filter>ForceField</Filter>
+    </ClCompile>
+    <ClCompile Include="ForceField.cpp">
+      <Filter>ForceField</Filter>
+    </ClCompile>
+    <ClCompile Include="GravityForceField.cpp">
+      <Filter>ForceField</Filter>
+    </ClCompile>
+    <ClCompile Include="RadialForceField.cpp">
+      <Filter>ForceField</Filter>
+    </ClCompile>
+    <ClCompile Include="VerticalForceField.cpp">
+      <Filter>ForceField</Filter>
+    </ClCompile>
+    <ClCompile Include="HoseGenerator.cpp">
+      <Filter>Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="RingGenerator.cpp">
+      <Filter>Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="Generator.cpp">
+      <Filter>Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="Integrator.cpp">
+      <Filter>Integrator</Filter>
+    </ClCompile>
+    <ClCompile Include="MidpointIntegrator.cpp">
+      <Filter>Integrator</Filter>
+    </ClCompile>
+    <ClCompile Include="EulerIntegrator.cpp">
+      <Filter>Integrator</Filter>
+    </ClCompile>
+    <ClCompile Include="particle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Materials">
+      <UniqueIdentifier>{a081d90a-fa46-4603-923a-c78b58ededba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{100e28be-faac-4bd1-9294-b716135c4b55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Canvas">
+      <UniqueIdentifier>{8a88633e-aba6-4f99-b8e8-f6b54f9074e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{38199ec3-fd90-4cef-a0ce-5fe139a5b10f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{f488d806-d169-4aee-8452-731500b25e98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gird">
+      <UniqueIdentifier>{e9cf7f39-8240-425d-a14d-cddc4039f538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sampler">
+      <UniqueIdentifier>{cc095d1b-ff4a-4044-9dea-d050c97c8b21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filter">
+      <UniqueIdentifier>{6a6bc43f-3925-4b6f-99db-ba778c7c1447}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_parser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="perlin_noise.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="phongmaterial.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="noise.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="marble.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="OrthographicCamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="perspectivecamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="glCanvas.h">
+      <Filter>Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="rayTree.h">
+      <Filter>Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="raytracing_stats.h">
+      <Filter>Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="vectors.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="object3dvector.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="object3d.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="plane.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="sphere.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="transform.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="group.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="grid.h">
+      <Filter>Gird</Filter>
+    </ClInclude>
+    <ClInclude Include="boundingbox.h">
+      <Filter>Gird</Filter>
+    </ClInclude>
+    <ClInclude Include="marchinginfo.h">
+      <Filter>Gird</Filter>
+    </ClInclude>
+    <ClInclude Include="checkerboard.h">
+      <Filter>Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="film.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomSampler.h">
+      <Filter>sampler</Filter>
+    </ClInclude>
+    <ClInclude Include="Sampler.h">
+      <Filter>sampler</Filter>
+    </ClInclude>
+    <ClInclude Include="UniformSampler.h">
+      <Filter>sampler</Filter>
+    </ClInclude>
+    <ClInclude Include="JitteredSampler.h">
+      <Filter>sampler</Filter>
+    </ClInclude>
+    <ClInclude Include="Filter.h">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxFilter.h">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="TentFilter.h">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="GaussianFilter.h">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix2f.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3f.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="sample.h">
+      <Filter>sampler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="A6.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="light.Cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_parser.Cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="noise.cpp">
+      <Filter>Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="perlin_noise.cpp">
+      <Filter>Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="marble.cpp">
+      <Filter>Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="phongmaterial.cpp">
+      <Filter>Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="OrthographicCamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="perspectivecamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="glCanvas.Cpp">
+      <Filter>Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="rayTree.Cpp">
+      <Filter>Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="group.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="plane.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="transform.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="triangle.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="grid.cpp">
+      <Filter>Gird</Filter>
+    </ClCompile>
+    <ClCompile Include="boundingbox.Cpp">
+      <Filter>Gird</Filter>
+    </ClCompile>
+    <ClCompile Include="marchinginfo.cpp">
+      <Filter>Gird</Filter>
+    </ClCompile>
+    <ClCompile Include="checkerboard.cpp">
+      <Filter>Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="raytracing_stats.cpp">
+      <Filter>Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="film.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomSampler.cpp">
+      <Filter>sampler</Filter>
+    </ClCompile>
+    <ClCompile Include="Sampler.cpp">
+      <Filter>sampler</Filter>
+    </ClCompile>
+    <ClCompile Include="UniformSampler.cpp">
+      <Filter>sampler</Filter>
+    </ClCompile>
+    <ClCompile Include="JitteredSampler.cpp">
+      <Filter>sampler</Filter>
+    </ClCompile>
+    <ClCompile Include="Filter.cpp">
+      <Filter>filter</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxFilter.cpp">
+      <Filter>filter</Filter>
+    </ClCompile>
+    <ClCompile Include="TentFilter.cpp">
+      <Filter>filter</Filter>
+    </ClCompile>
+    <ClCompile Include="GaussianFilter.cpp">
+      <Filter>filter</Filter>
+    </ClCompile>
+    <ClCompile Include="object3d.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix2f.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix3f.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

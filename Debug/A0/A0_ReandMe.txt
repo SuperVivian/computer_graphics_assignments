@@ -1,0 +1,17 @@
+功能介绍：
+此demo使用IFS算法，可以根据输入的IFS描述、随机点数量、迭代次数、图片大小，绘制一个分形图形，并输出一张tga。
+
+使用方法：直接打开exe，输入命令。
+
+命令输入格式：
+-input sierpinski_triangle.txt -points 10000 -iters 0 -size 200 -output sierpinski_triangle_0.tga
+
+可选的IFS描述有：
+fern.txt
+dragon.txt
+sierpinski_triangle.txt
+giant_x.txt
+
+作者：
+冯微伟
+2018年7月24日

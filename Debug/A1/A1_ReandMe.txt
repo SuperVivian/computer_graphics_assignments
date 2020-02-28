@@ -1,0 +1,21 @@
+功能介绍：
+此demo实现了一个简单的ray caster，可以根据输入的场景描述（包括Camera参数、模型数量、材质情况、生成图片大小），模拟正交摄像机对3D物体的光线投射，输出正确的材质颜色，并输出一张tga。同时还把射线与模型交点之间的距离映射到了灰度图上，并输出一张tga。
+
+使用方法：直接打开exe，输入命令。
+
+命令输入格式：
+-input scene1_03.txt -size 200 200 -output output1_03.tga -depth 8 12 depth1_03.tga
+
+可选的场景描述有：
+scene1_01.txt
+scene1_02.txt
+scene1_03.txt
+scene1_04.txt
+scene1_05.txt
+scene1_06.txt
+scene1_07.txt
+
+
+作者：
+冯微伟
+2018年7月25日

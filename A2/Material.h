@@ -1,0 +1,35 @@
+#ifndef _MATERIAL_H_
+#define _MATERIAL_H_ 
+#include "vectors.h"
+#include"Hit.h"
+#include"Ray.h"
+// ====================================================================
+// ====================================================================
+// You will extend this class in later assignments 
+
+class Material
+{
+public:
+	// CONSTRUCTORS & DESTRUCTOR 
+	Material (const Vec3f &d_color)
+	{
+		diffuseColor = d_color;
+	}
+	virtual ~Material () {}
+	// ACCESSORS 
+	virtual Vec3f getDiffuseColor () const
+	{
+		return diffuseColor;
+	} 
+	virtual Vec3f shade (const Ray& ray, const Hit& hit, const Vec3f& lightDir, const Vec3f& lightColor);
+
+protected:
+		// REPRESENTATION 
+		Vec3f diffuseColor;
+
+};
+
+// ====================================================================
+// ==================================================================== 
+
+#endif 
